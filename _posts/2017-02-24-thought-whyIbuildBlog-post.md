@@ -5,7 +5,7 @@ description: "Setup my blog principle."
 modified: 2017-02-08T19:02:00-00:30
 tags: [Thought]
 image:
-  feature: abstract-12.jpg
+  feature: youngpope.jpg
 ---
 ## 为什么要建一个博客？
 
