@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Syntax Highlighting Post
-description: "Demo post displaying the various ways of highlighting code in Markdown."
+title: Why I buld a blog
+description: "Setup my blog principle."
 modified: 2017-02-08T19:02:00-00:30
 tags: [Thought]
 image:
