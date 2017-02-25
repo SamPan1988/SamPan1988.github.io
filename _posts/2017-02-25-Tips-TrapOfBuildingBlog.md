@@ -15,27 +15,29 @@ image:
 ### 没想到跟着说明走不通
 
 不要误会，Jekyll真是个神器，只是我没想到跟着它的说明书走会出问题.
-首先Jekyll是个ruby写的Gem工具，我使用的是macOS，自带ruby，所以在命令端里敲以下命令，就可以安装了
+首先Jekyll是个ruby写的Gem工具，我使用的是macOS，自带ruby，在命令端里敲以下命令，就可以安装了
 ```bash
 gem install jekyll bundler
 ```
-然后报警了。。。
+然后报了个警。。。
 ```bash
 ERROR:  While executing gem ... (Errno::EACCES)
     Permission denied @ rb_sysopen - /usr/local/lib/ruby/gems/2.4.0/gems/jekyll-3.4.0/.rubocop.yml
 ```
-虽然在Quick star guide 里没有任何提示，但官网的trouble shooting里还是很良心的记录怎么解决这个问题。
+虽然在Quick start guide 里没有任何提示，但官网的trouble shooting里还是很良心的记录怎么解决这个问题。
 
 大家有时间可以看看<https://jekyllrb.com/docs/troubleshooting/#jekyll--mac-os-x-1011> 
 
 简略的说，起因就是苹果在EI Captin版本后，引入了一个System Integrity Protection，所以系统自带的Ruby就没法改了。
-所以，对于macOS，应该敲以下命令进行 jekyll 和 bundler的安装
+因此，对于macOS，应该敲以下命令进行 jekyll 和 bundler的安装
 ```bash
 sudo gem install jekyll bundler
 ```
-然后请不要再看star guide的余下部分了，博主在这部分浪费了不小时间，因为默认主题是个gem theme，虽然gitpage里的指南很详细地说怎么换gem theme，但我真的没有成功过。
+然后请不要再看start guide的余下部分了，博主在这部分浪费了不小时间，因为默认主题是个gem theme，没有任何显式的css，html之类可以修改，gitpage里的指南虽然详细地说怎么换gem theme，但我真的没有成功过。
 
 ### 正确的姿势
+
+经过一轮折腾后，我觉得最快的方式应用jekyll建博客应该是下面这样
 
 1. 直接在github中搜索关键字 jekyll theme，然后你会发现有很多好心人已经做好了各种模板，免费，还特别漂亮！
 2. clone 到你的电脑上，解压到你喜欢的位置
