@@ -4,7 +4,7 @@ title: "环信EMSDK_Not_Found报警最快解决姿势"
 description: "快速集成环信时出现的报错"
 tags: [Tips, 环信, 编译错误]
 image:
-  feature: https://i.ytimg.com/vi/8_nRZjJfD7Y/maxresdefault.jpg
+  feature: killerInRed.jpg
 ---
 
 ### 不废话，直接上正确姿势
