@@ -29,6 +29,7 @@ pod 'EaseUI', :git => 'https://github.com/easemob/easeui-ios-hyphenate-cocoapods
 
 英明神武的同学应该会注意到编译后会有个运行时的输出，长下面这样
 ![DuplicateClass](https://github.com/SamPan1988/imageStore/raw/master/duplicateJPG.jpg)
+
 看报警信息是说，有一个类在两个私有库中重复实现了，OC是没有name space，或者应该说是flat name space，当一个类在runtime里注册了两次就会出现这个问题。
 
 stackoverflow 里有个答案说得很好很详细
